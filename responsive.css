@@ -1,0 +1,244 @@
+@media screen and (max-width: 1023px) {
+  /* CSS Responsive Nav */
+
+  .doubleCB-nav ul,
+  .doubleCB-nav button {
+    display: none;
+  }
+
+  .doubleCB-nav div {
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .doubleCB-nav div i {
+    padding: 8px 8px;
+  }
+
+  /* CSS Responsive Banner */
+
+  .doubleCB-banner {
+    padding: 24px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top {
+    margin: 24px 0 24px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-info,
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button button {
+    margin-right: 0px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-info {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .doubleCB-banner .banner {
+    display: none;
+  }
+  .doubleCB-banner .banner-resp {
+    display: block;
+  }
+
+  /* CSS Feature Responsive */
+
+  .doubleCB-Feature {
+    display: block;
+  }
+
+  .doubleCB-Feature .doubleCB-Feature-item {
+    padding: 20px 30px;
+  }
+
+  .doubleCB-Feature .doubleCB-Feature-item .doubleCB-Feature-item-header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .doubleCB-Feature .doubleCB-Feature-item .doubleCB-Feature-item-header i {
+    margin-right: 16px;
+  }
+
+  /* CSS Program Responsive */
+
+  .doubleCB-program .program {
+    display: none;
+  }
+
+  .doubleCB-program .program-resp {
+    display: block;
+    margin-bottom: 29px;
+  }
+
+  .doubleCB-program .doubleCB-program-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doubleCB-program .doubleCB-program-info .doubleCB-program-info-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 29px;
+  }
+
+  .doubleCB-program .doubleCB-program-info .doubleCB-program-info-right {
+    width: 320px;
+  }
+
+  /* CSS Responsive Feedback */
+
+  .doubleCB-feedback {
+    padding: 30px 0;
+  }
+
+  .doubleCB-feedback .doubleCB-feedback-container-card {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 24px;
+    margin-bottom: 30px;
+  }
+
+  .doubleCB-feedback .doubleCB-feedback-item3 {
+    display: none;
+  }
+
+  /* CSS Slogan Responsive */
+
+  .doubleCB-slogan .doubleCB-slogan-content .doubleCB-slogan-header {
+    font-size: 34px;
+  }
+
+  /* CSS Footer Responsive */
+
+  .doubleCB-footer {
+    grid-template-areas:
+      "aa aa aa ee"
+      "bb cc dd ee";
+  }
+
+  .doubleCB-footer .doubleCB-footer-sub {
+    padding-top: 40px;
+  }
+
+  .doubleCB-footer .doubleCB-footer-sub .doubleCB-footer-sub-header {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 743px) {
+  /* CSS Responsive Nav */
+
+  .doubleCB-nav .doubleCB-nav-logo {
+    font-size: 24px;
+  }
+
+  /* CSS Responsive Banner */
+
+  .doubleCB-banner {
+    padding: 0 24px 20px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-header {
+    font-size: 40px;
+    width: min(100%, 350px);
+  }
+
+  /* .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-info,
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button {
+    padding: 0 5%;
+  } */
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-info {
+    margin-bottom: 20px;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button button {
+    margin-bottom: 20px;
+    width: min(135px, 100%);
+  }
+
+  .doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button button p {
+    padding: 11px 42px;
+    font-size: 12px;
+  }
+
+  .doubleCB-banner
+    .doubleCB-banner-top
+    .doubleCB-banner-top-button
+    .doubleCB-banner-button-info {
+    padding: 0 7%;
+    font-weight: 600;
+  }
+
+  /* CSS Feature Responsive */
+
+  /* CSS Feedback Responsive */
+
+  .doubleCB-feedback .doubleCB-feedback-container-card {
+    grid-template-columns: 1fr;
+  }
+
+  .doubleCB-feedback .doubleCB-feedback-item2 {
+    display: none;
+  }
+
+  /* CSS Slogan Responsive */
+
+  .doubleCB-slogan .doubleCB-slogan-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: min(400px, 100%);
+  }
+
+  .doubleCB-slogan .doubleCB-slogan-content .doubleCB-slogan-header {
+    font-size: 24px;
+  }
+
+  /* CSS Footer Responsive */
+
+  .doubleCB-footer {
+    text-align: center;
+    padding: 50px 30px;
+    row-gap: 30px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "aa aa aa"
+      "bb cc dd"
+      "ee ee ee";
+  }
+
+  .doubleCB-footer .doubleCB-footer-logo {
+    justify-content: center;
+  }
+
+  .doubleCB-footer .doubleCB-footer-logo .doubleCB-footer-logo-child {
+    display: block;
+  }
+
+  .doubleCB-footer .doubleCB-footer-sub {
+    padding-top: 0;
+  }
+}

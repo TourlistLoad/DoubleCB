@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* CSS Nav */
+
+.doubleCB-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 32px;
+}
+
+.doubleCB-nav .doubleCB-nav-logo {
+  font-family: "Kulim Park", sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.doubleCB-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubleCB-nav ul li {
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-right: 24px;
+}
+
+.doubleCB-nav button {
+  background-color: black;
+  border-radius: 30px;
+  width: 114px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.doubleCB-nav div {
+  display: none;
+}
+
+/* CSS Banner */
+
+.doubleCB-banner {
+  padding: 32px;
+}
+
+.doubleCB-banner .doubleCB-banner-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 165px 68px;
+}
+
+.doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-header {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 470px;
+  margin-bottom: 24px;
+}
+
+.doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-info {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 630px;
+  margin-bottom: 20px;
+}
+
+.doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+}
+
+.doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button button {
+  border-radius: 30px;
+  background: #ffcf23;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* width: 165px;
+    height: 45px; */
+  border-style: none;
+  margin-right: 24px;
+}
+
+.doubleCB-banner .doubleCB-banner-top .doubleCB-banner-top-button button p {
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 13px 52px;
+}
+
+.doubleCB-banner
+  .doubleCB-banner-top
+  .doubleCB-banner-top-button
+  .doubleCB-banner-button-info {
+  text-align: center;
+}
+
+.doubleCB-banner .banner,
+.doubleCB-banner .banner-resp {
+  width: 100%;
+  height: auto;
+}
+
+.doubleCB-banner .banner-resp {
+  display: none;
+}
+
+/* CSS Feature */
+
+.doubleCB-Feature {
+  display: none;
+}
+
+/* CSS Program */
+
+.doubleCB-program {
+  background-color: black;
+  padding: 32px 32px 64px;
+  color: white;
+}
+
+.doubleCB-program .program,
+.doubleCB-program .program-resp {
+  width: 100%;
+  height: auto;
+  margin-bottom: 64px;
+}
+
+.doubleCB-program .program-resp {
+  display: none;
+}
+
+.doubleCB-program .doubleCB-program-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubleCB-program .doubleCB-program-info .doubleCB-program-info-left {
+  width: 413px;
+  /* margin-right: 20%; */
+}
+
+.doubleCB-program .doubleCB-program-info .doubleCB-program-info-left h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.doubleCB-program .doubleCB-program-info .doubleCB-program-info-left p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.doubleCB-program .doubleCB-program-info .doubleCB-program-info-right {
+  width: 400px;
+}
+
+.doubleCB-program .doubleCB-program-info .doubleCB-program-info-right ul li {
+  margin-bottom: 8px;
+}
+
+/* CSS Feedback */
+
+.doubleCB-feedback {
+  padding: 48px 0;
+}
+
+.doubleCB-feedback .doubleCB-feedback-container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  margin-bottom: 65px;
+}
+
+.doubleCB-feedback .doubleCB-feedback-card {
+  border-radius: 8px;
+  background: #f3f3f3;
+  padding: 24px;
+}
+
+.doubleCB-feedback .doubleCB-feedback-card .doubleCB-feedback-card-cmt {
+  margin-bottom: 70px;
+  line-height: 28px;
+}
+
+.doubleCB-feedback .doubleCB-feedback-card .doubleCB-feedback-card-name {
+  font-weight: 700;
+}
+
+.doubleCB-feedback .doubleCB-feedback-card img {
+  margin-bottom: 16px;
+}
+
+.doubleCB-feedback .doubleCB-feedback-transBar {
+  text-align: center;
+}
+
+.doubleCB-feedback .doubleCB-feedback-transBar i:nth-child(2) {
+  margin: 0 12px;
+}
+
+/* CSS Slogan */
+
+.doubleCB-slogan {
+  background-image: url("./assets/imgs/slogan.jpg");
+  height: auto;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.doubleCB-slogan .doubleCB-slogan-content {
+  padding-top: 192px;
+  width: min(600px, 100%);
+  text-align: center;
+}
+
+.doubleCB-slogan .doubleCB-slogan-content .doubleCB-slogan-tagline {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.doubleCB-slogan .doubleCB-slogan-content .doubleCB-slogan-header {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.doubleCB-slogan .doubleCB-slogan-content button {
+  border-radius: 24px;
+  border-style: none;
+  margin-bottom: 132px;
+  /* height: 40px; */
+}
+
+.doubleCB-slogan .doubleCB-slogan-content button p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 6px 16px;
+}
+
+/* CSS Footer */
+
+.doubleCB-footer {
+  background-color: #000000;
+  color: white;
+  padding: 45px 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 48px;
+  grid-template-areas:
+    "aa aa aa aa"
+    "bb cc dd ee";
+}
+
+.doubleCB-footer .doubleCB-footer-logo {
+  display: flex;
+  grid-area: aa;
+}
+
+.doubleCB-footer .doubleCB-footer-logo .doubleCB-footer-logo-par {
+  font-family: "Kulim Park", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.doubleCB-footer .doubleCB-footer-logo .doubleCB-footer-logo-child {
+  font-size: 8.218px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 8.805px; /* 107.143% */
+  letter-spacing: -0.147px;
+  display: none;
+}
+
+.doubleCB-footer .doubleCB-footer-column .doubleCB-footer-column-nameColumn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  margin-bottom: 16px;
+}
+
+.doubleCB-footer .doubleCB-footer-column .doubleCB-footer-column-info {
+  list-style: none;
+}
+
+.doubleCB-footer .doubleCB-footer-column .doubleCB-footer-column-info li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 8px;
+}
+
+.doubleCB-footer .footer-1 {
+  grid-area: bb;
+}
+
+.doubleCB-footer .footer-2 {
+  grid-area: cc;
+}
+
+.doubleCB-footer .footer-3 {
+  grid-area: dd;
+}
+
+.doubleCB-footer .doubleCB-footer-sub {
+  grid-area: ee;
+}
+
+.doubleCB-footer .doubleCB-footer-sub .doubleCB-footer-sub-header {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  margin-bottom: 12px;
+}
+
+.doubleCB-footer .doubleCB-footer-sub .doubleCB-footer-sub-button {
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border-style: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.doubleCB-footer
+  .doubleCB-footer-sub
+  .doubleCB-footer-sub-button
+  .doubleCB-footer-sub-button-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
+.doubleCB-footer
+  .doubleCB-footer-sub
+  .doubleCB-footer-sub-button
+  .doubleCB-footer-sub-button-info
+  i {
+  font-size: 24px;
+}
+
+.doubleCB-footer
+  .doubleCB-footer-sub-button
+  .doubleCB-footer-sub-button-info
+  p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  opacity: 0.5;
+}
+
+.doubleCB-footer .doubleCB-footer-sub .doubleCB-footer-sub-info {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  opacity: 0.4;
+}
